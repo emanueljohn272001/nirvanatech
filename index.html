@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nirvaya Tech Labs – Confidence in Every Solution</title>
+<style>
+:root{--bg:#fff;--bg2:#f5f6ff;--text:#1e1b4b;--muted:#4b5563;--line:#e3e4f4;--indigo:#4f46e5;--teal:#0d9488;--saff:#f59e0b;--on-accent:#fff;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12112a;--bg2:#1a1938;--text:#eceafd;--muted:#a9abc4;--line:#2c2b52;--indigo:#818cf8;--teal:#2dd4bf;--saff:#fbbf24;--on-accent:#12112a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#12112a;--bg2:#1a1938;--text:#eceafd;--muted:#a9abc4;--line:#2c2b52;--indigo:#818cf8;--teal:#2dd4bf;--saff:#fbbf24;--on-accent:#12112a;color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:16px;padding-bottom:16px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;letter-spacing:.5px;text-decoration:none;color:var(--text)}
+.brand svg{width:36px;height:40px}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:15px}
+nav a:hover{color:var(--indigo)}
+.hero{text-align:center;padding:56px 0 72px;background:linear-gradient(180deg,var(--bg2),var(--bg))}
+.hero svg{width:120px;height:135px}
+h1{font-size:clamp(34px,7vw,56px);margin:12px 0 4px;letter-spacing:1px}
+.tag{font-size:clamp(18px,3.5vw,24px);color:var(--indigo);font-weight:600;margin:0 0 16px}
+.hero p.lead{max-width:560px;margin:0 auto 28px;color:var(--muted)}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:600;margin:6px}
+.btn.p{background:var(--indigo);color:var(--on-accent)}
+.btn.s{border:2px solid var(--indigo);color:var(--indigo)}
+section{padding:64px 0}
+section.alt{background:var(--bg2)}
+h2{font-size:clamp(26px,5vw,34px);margin:0 0 8px;text-align:center}
+.sub{text-align:center;color:var(--muted);max-width:560px;margin:0 auto 36px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:24px;border-top:4px solid var(--indigo)}
+.card:nth-child(2){border-top-color:var(--teal)}
+.card:nth-child(3){border-top-color:var(--saff)}
+.card h3{margin:0 0 6px;font-size:20px}
+.card p{margin:0;color:var(--muted)}
+.steps{counter-reset:s;display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.step{text-align:center;padding:8px}
+.step:before{counter-increment:s;content:counter(s);display:inline-flex;width:44px;height:44px;border-radius:50%;background:var(--saff);color:#1e1b4b;font-weight:700;align-items:center;justify-content:center;margin-bottom:10px}
+.step h3{margin:0 0 4px}.step p{margin:0;color:var(--muted)}
+.about{max-width:680px;margin:0 auto;text-align:center;color:var(--muted)}
+.about strong{color:var(--text)}
+.contact{text-align:center}
+.contact a.mail{font-size:clamp(18px,4vw,24px);color:var(--indigo);font-weight:600;word-break:break-all}
+footer{border-top:1px solid var(--line);padding:24px 0;text-align:center;color:var(--muted);font-size:14px}
+@media(max-width:560px){nav a{margin-left:12px;font-size:14px}.brand span{display:none}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="lotus" viewBox="110 20 160 180">
+<path d="M190 150 C168 125 168 95 190 72 C212 95 212 125 190 150 Z" transform="rotate(-48 190 150)" fill="var(--teal)"/>
+<path d="M190 150 C168 125 168 95 190 72 C212 95 212 125 190 150 Z" transform="rotate(48 190 150)" fill="var(--saff)"/>
+<path d="M190 54 C214 84 214 124 190 152 C166 124 166 84 190 54 Z" fill="var(--indigo)" stroke="var(--bg)" stroke-width="2.5"/>
+<circle cx="190" cy="34" r="7" fill="var(--saff)"/>
+<path d="M122 168 Q190 196 258 168" fill="none" stroke="var(--indigo)" stroke-width="4" stroke-linecap="round"/>
+</symbol></defs></svg>
+
+<header><div class="wrap">
+<a class="brand" href="#top"><svg role="img" aria-label="Nirvaya lotus logo"><use href="#lotus"/></svg><span>Nirvaya Tech Labs</span></a>
+<nav><a href="#services">Services</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<svg role="img" aria-label="Nirvaya lotus logo"><use href="#lotus"/></svg>
+<h1>Nirvaya Tech Labs</h1>
+<p class="tag">Confidence in Every Solution</p>
+<p class="lead">We build smart software and AI solutions, and train the next generation of tech talent, with clarity, care and craft.</p>
+<a class="btn p" href="#contact">Start a project</a><a class="btn s" href="#services">What we do</a>
+</div></div>
+
+<section id="services"><div class="wrap">
+<h2>What we do</h2>
+<p class="sub">Practical technology, from idea to working product, plus the skills to keep it growing.</p>
+<div class="grid">
+<div class="card"><h3>AI &amp; Software Solutions</h3><p>Custom web apps, automation and AI/ML tools built around your real problem, not a template.</p></div>
+<div class="card"><h3>Tech Training</h3><p>Hands-on programs in Python, DSA, AI &amp; Data Science that prepare job seekers for real roles.</p></div>
+<div class="card"><h3>Consulting &amp; Mentoring</h3><p>Honest guidance on tools, architecture and career paths, so every decision is made with confidence.</p></div>
+</div></div></section>
+
+<section id="approach" class="alt"><div class="wrap">
+<h2>How we work</h2>
+<p class="sub">Simple steps that keep you informed and in control.</p>
+<div class="steps">
+<div class="step"><h3>Listen</h3><p>We understand your goal first.</p></div>
+<div class="step"><h3>Design</h3><p>A clear, simple plan you can see.</p></div>
+<div class="step"><h3>Build</h3><p>Clean, tested, working solutions.</p></div>
+<div class="step"><h3>Support</h3><p>We stay with you after launch.</p></div>
+</div></div></section>
+
+<section id="about"><div class="wrap">
+<h2>About Nirvaya</h2>
+<p class="about"><strong>Nirvaya</strong> is inspired by nirvana: courage and clarity. Like a lotus that blooms clean from the mud, we turn complex problems into simple, dependable solutions. Our three petals stand for <strong>knowledge, wisdom and action</strong>, and the spark above is the idea that starts it all.</p>
+</div></section>
+
+<section id="contact" class="alt"><div class="wrap contact">
+<h2>Let’s talk</h2>
+<p class="sub">Have a project, a question or want to learn with us? Write to us.</p>
+<a class="mail" href="mailto:hello@nirvayatechlabs.com">nirvayatech@gmail.com</a>
+</div></section>
+</main>
+
+<footer><div class="wrap">© 2026 Nirvaya Tech Labs · Confidence in Every Solution</div></footer>
+</body>
+</html>
